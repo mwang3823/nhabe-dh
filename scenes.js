@@ -362,8 +362,9 @@ S.push({ name: 'Giá trị & kiến nghị', pptx: 18, n: 4, cls: 'close', html:
   ${head({ k: 'Định hướng 2027–2030', t: 'Giá trị kỳ vọng & kiến nghị', hs: 60, top: 44, lead: 'Thống nhất định hướng · Triển khai linh hoạt · Từng bước tạo giá trị' })}
   ${pic('drop18', A('zoom', 0, 2.5, P(590, 172, 420, 230)), 'me')}
   <div class="abs" ${A('fade', 0, 3, P(640, 330, 320, 80))}><i class="pulse" style="inset:0"></i><i class="pulse r2" style="inset:0"></i></div>
-  <div class="stmt abs" ${A('up', 0, 3.2, P(545, 420, 510))}>Nhà Bè – doanh nghiệp cấp nước<br>vận hành dựa trên dữ liệu</div>
-  ${net([['M545 262 C640 262 660 300 720 320', 1, .4, 1], ['M1055 262 C960 262 950 300 880 320', 1, .6, 1], ['M545 522 C620 522 620 470 660 450', 1, .8, 1, 'o'], ['M1055 522 C980 522 980 470 940 450', 1, 1, 1, 'o']])}
+  
+  ${net([['M545 262 C640 262 660 300 720 320', 1, .4, 1], ['M1055 262 C960 262 950 300 880 320', 1, .6, 1], ['M545 522 C580 522 575 470 562 456', 1, .8, 1, 'o'], ['M1055 522 C1020 522 1025 470 1038 456', 1, 1, 1, 'o']])}
+  <div class="stmt abs" ${A('up', 0, 3.2, P(548, 414, 504))}>Nhà Bè – doanh nghiệp cấp nước<br>vận hành dựa trên dữ liệu</div>
   ${v18.map(([i, t, d, x, y, w, a], k) => `<div class="glass v18 ${a === 'right' ? 'rt' : ''} abs" ${A(a, 1, k * .4, P(x, y, w, 128))}>${ib(i, 'xl soft')}<div><span class="num">0${k + 1}</span><b>${t}</b><small>${d}</small></div></div>`).join('')}
   <div class="kn abs" ${A('zoom', 2, 0, P(0, 606, 1600))}><i></i><b>Kiến nghị</b><i></i></div>
   ${r18.map(([i, t], k) => `<div class="glass r18 abs" ${A('up', 2, .5 + k * .45, P(28 + k * 524, 676, 500, 114))}>${ib(i, 'soft lg')}<b>${t}</b></div>`).join('')}

@@ -722,3 +722,4 @@ h1 .w > span.g { padding: .32em 0 .12em; margin: -.32em 0 -.12em; -webkit-box-de
 .tab { background: linear-gradient(180deg, #3aa0ff, #0b55d6); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .slab.teal .tab { background: linear-gradient(180deg, #3fd8d4, #0a8f9a); -webkit-background-clip: text; background-clip: text; }
 .slab.navy .tab { background: linear-gradient(180deg, #ffffff, #8fd0ff); -webkit-background-clip: text; background-clip: text; }
+.stmt { padding: 8px 14px; border-radius: 22px; background: radial-gradient(closest-side, rgba(248, 252, 255, .98) 70%, rgba(248, 252, 255, .85)); position: absolute; z-index: 2; }
