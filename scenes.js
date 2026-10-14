@@ -20,7 +20,7 @@ S.push({ name: 'Trang bìa', pptx: 1, n: 1, cls: 'cover', html: `
   <div class="kick plain" ${A('left')}>Định hướng chuyển đổi số 2027–2030</div>
   <div class="co abs" ${A('right', 0, 1)}>Công ty Cổ phần Cấp nước Nhà Bè</div>
   ${pic('cover', A('fade', 0, 2, P(0, 398, 1600, 402)), 'cov kb')}
-  <header class="head" style="top:112px"><h1 ${A('wipe', 0, 0, 'font-size:78px')}>Từ hệ sinh thái số<br><em>đến vận hành thông minh</em><br>dựa trên dữ liệu</h1></header>
+  <header class="head" style="top:100px"><h1 ${A('wipe', 0, 0, 'font-size:74px')}>Từ hệ sinh thái số<br><em>đến vận hành thông minh</em><br>dựa trên dữ liệu</h1></header>
   <div class="abs" ${A('zoom', 0, 3, P(470, 640, 660, 150))}><i class="pulse" style="inset:0"></i><i class="pulse r2" style="inset:0"></i></div>
   <div class="abs" ${A('spin', 0, 3.3, P(660, 404, 280, 280))}><i class="halo" style="inset:0"></i><i class="halo rev" style="inset:-26px"></i></div>
   <div class="spark abs" ${A('fade', 0, 3.6, P(0, 0, 1600, 900))}>${[[210, 470], [380, 520], [520, 450], [1090, 470], [1240, 520], [1400, 455], [300, 600], [1310, 600]].map(([x, y], k) => `<i class="flt" style="${P(x, y)}animation-delay:${-k * .7}s"></i>`).join('')}</div>
@@ -57,7 +57,7 @@ const sat = [
 const kdRows = [['gauge', 'Ghi chỉ số nước', 'Đọc số · Hình ảnh ĐHN · Tiêu thụ'], ['receipt', 'Thu tiền & công nợ', 'Hóa đơn · Thu tiền · Nhắc nợ · Đóng/Mở nước'], ['search', 'Kiểm tra kiểm soát', 'Tiếp nhận · Phân công · Xử lý · Kết quả']];
 const base3 = [['monitor', 'Web / Mobile'], ['settings', 'API'], ['database', 'CSDL'], ['map-pin', 'GIS'], ['server', 'Hạ tầng'], ['shield-check', 'An toàn thông tin']];
 S.push({ name: 'Hiện trạng hệ sinh thái', pptx: 3, n: 4, html: `
-  ${head({ k: 'Hiện trạng hệ sinh thái số', t: 'Bức tranh hệ sinh thái số hiện tại<span class="sub"><em>Các mảnh ghép đã hình thành<br>dữ liệu đang từng bước được kết nối</em></span>', hs: 40, top: 18 })}
+  ${head({ k: 'Hiện trạng hệ sinh thái số', t: 'Bức tranh hệ sinh thái số hiện tại<span class="sub"><em>Các mảnh ghép đã hình thành<br>dữ liệu đang từng bước được kết nối</em></span>', hs: 38, top: 14 })}
   ${net([
     ['M280 614 C280 680 420 698 526 698', 2, 2, 1],
     ['M1320 614 C1320 680 1180 698 1078 698', 2, 2.4, 1],
@@ -219,8 +219,8 @@ const chips = (arr, s) => arr.map(([i, t], k) => `${k ? `<i class="cs">${ic('che
 const rb10 = 'M20 590 C200 560 300 620 480 590 S760 560 900 592 S1180 620 1300 588 S1500 560 1600 580';
 S.push({ name: 'Khối Tham mưu', pptx: 10, n: 4, html: `
   <div class="kick" ${A('left')}>Định hướng 2027–2030</div>
-  <div class="tagline gold" ${A('zoom', 0, 0, 'top:22px')}>Khối tham mưu</div>
-  <header class="head" style="top:132px"><h1 ${A('wipe', 0, 1, 'font-size:46px')}>Từ theo dõi <em>từng phần việc</em><br>đến <em>quản trị nguồn lực liên thông</em></h1></header>
+  <div class="tagline gold" ${A('zoom', 0, 0, 'top:16px;font-size:56px;padding:8px 60px')}>Khối tham mưu</div>
+  <header class="head" style="top:118px"><h1 ${A('wipe', 0, 1, 'font-size:43px')}>Từ theo dõi <em>từng phần việc</em><br>đến <em>quản trị nguồn lực liên thông</em></h1></header>
   <svg class="wires" viewBox="0 0 1600 900"><path pathLength="1" class="band" d="${rb10}" ${A('draw', 0, 2)}/><g ${A('fade', 0, 3)}><path class="flow" d="${rb10}"/></g></svg>
   ${tm10.map(([t, d, img, x, w], k) => `<div class="glass tm10 abs" ${A('up', 0, 2.2 + k * .5, P(x, 262, w, 318))}>
       <span class="badge" ${A('spin', 0, 2.6 + k * .5)}>0${k + 1}</span><b>${t}</b><small>${d}</small>

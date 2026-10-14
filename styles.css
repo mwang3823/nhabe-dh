@@ -703,3 +703,14 @@ h1 .w > span.g { padding-top: .3em; margin-top: -.3em; }
 .v18 b { font-size: 18px; }
 .col7.ind .c7h b { font-size: 19px; white-space: nowrap; }
 .src small { font-size: 15.5px; white-space: nowrap; }
+
+/* ================= round 3: titles & logo ================= */
+.head h1 { line-height: 1.3; }
+.cover .head h1 { line-height: 1.24; }
+.head h1 .sub { line-height: 1.34; margin-top: .06em; }
+.head h1.split em { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: inherit; }
+h1 .w { padding: .5em .06em .24em; margin: -.5em -.06em -.24em; }
+h1 .w > span.g { padding: .32em 0 .12em; margin: -.32em 0 -.12em; -webkit-box-decoration-break: clone; }
+.tagline, .concl { line-height: 1.24; }
+.brand { right: 14px; top: 6px; width: 132px; height: 132px; border-radius: 0; box-shadow: none; filter: drop-shadow(0 4px 10px rgba(255, 255, 255, .9)); }
+.co { right: 156px; }
