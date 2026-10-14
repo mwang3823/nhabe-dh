@@ -1,0 +1,8 @@
+/* ================= performance overrides ================= */
+.scene.far .stage { display: none; }
+.stage, [data-a] { will-change: auto; }
+.scene.active .stage { will-change: transform, opacity; }
+.glass, .card, .msg, .hud, .notes { backdrop-filter: none; }
+.orb { filter: none; }
+.bg-grid { animation: none; }
+.flow, .pk { filter: none; }

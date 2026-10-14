@@ -1,0 +1,20 @@
+/* ================= theme: Nhà Bè – sáng, nước, xanh dương ================= */
+:root {
+  --bg: #f3f8ff;
+  --bg2: #d6e9ff;
+  --navy: #0b1f5e;
+  --ink: #142a66;
+  --text2: #3b4f7d;
+  --blue: #0b63e5;
+  --sky: #22a5f5;
+  --accent: #1683ff;
+  --accent2: #3cc2ff;
+  --teal: #0aa5a8;
+  --gold: #d98a0f;
+  --orange: #f08a1c;
+  --red: #ec3b3b;
+  --purple: #7556f0;
+  --wire: #3d9bff;
+  --glass: linear-gradient(160deg, rgba(255, 255, 255, .95), rgba(233, 244, 255, .88));
+}
+::selection { background: rgba(22, 131, 255, .2); }
